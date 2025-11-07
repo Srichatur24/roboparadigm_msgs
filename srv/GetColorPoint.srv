@@ -1,0 +1,11 @@
+# Send the image information and the color to detect
+string color
+sensor_msgs/Image color_image
+sensor_msgs/Image depth_image
+sensor_msgs/CameraInfo camera_info
+
+---
+
+# Get the 3D position of the object
+geometry_msgs/Point position
+bool success
