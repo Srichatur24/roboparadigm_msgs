@@ -1,0 +1,2 @@
+String cls
+geometry_msgs/Point position

@@ -1,0 +1,1 @@
+roboparadigm_msgs/ObjectPosition[] objects

@@ -13,6 +13,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/GetColorPoint.srv"
+  "msg/ObjectPosition.msg"
+  "msg/MultiObjectPosition.msg"
   DEPENDENCIES sensor_msgs geometry_msgs
 )
 
